@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>User Information Form</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Enter name">
+            <label for="age">Age</label>
+            <input type="text" name="age" placeholder="Enter age">
+            <label for="email">Email</label>
+            <input type="email" nmae="email" placeholder="Enter email">
+            <label for="phone">Phone</label>
+            <input type="tel" name="phone" placeholder="Enter number">
+            <label for="gender">Gender</label>
+            <select id="gender">
+                <option value="">Select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+            <label for="address">Address</label>
+            <textarea name="address" placeholder="Enter address"></textarea>
+            <label for="date">Date</label>
+            <input type="date" name="date">
+
+            <button type="submit" class="submitbutton flex rounded">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

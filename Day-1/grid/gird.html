@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridContainer{
+            height: 100px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(4,200px);
+        }
+        .Item{
+            background-color: lightblue;
+            border: 2px solid black;
+            /*height: 100px;
+            width: 150px;*/
+        }
+        .Item:nth-child(1){
+            grid-column-start: 5;
+            grid-column-end: -5;
+        }
+        .Item:nth-child(2){
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+        .Item:nth-child(9){
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridContainer">
+        <div class="Item">1</div>
+        <div class="Item">2</div>
+        <div class="Item">3</div>
+        <div class="Item">4</div>
+        <div class="Item">5</div>
+        <div class="Item">6</div>
+        <div class="Item">7</div>
+        <div class="Item">8</div>
+        <div class="Item">9</div>
+
+    </div>
+</body>
+</html>

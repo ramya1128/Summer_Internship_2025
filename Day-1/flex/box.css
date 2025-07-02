@@ -1,0 +1,22 @@
+.flexContainer{
+  height: 100vh;
+  border: 2px solid black;
+  margin: 10px;
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.flexItem{
+  width:100px;
+  height: 100px;
+  background-color:rgb(249, 151, 200);
+  color: whitesmoke;
+  font-weight: 900;
+  border: 2px solid black;
+}
+.flexItem:nth-child(4){
+    order: 1;
+    align-self: flex-end;
+}
