@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+  border: 3px solid white;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 20px auto;
+}
+
+input[type="number"].guess {
+  padding: 10px;
+  font-size: 1.2rem;
+  width: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.lable-name,
+.max.score {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
